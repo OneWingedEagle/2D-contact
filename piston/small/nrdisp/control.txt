@@ -1,0 +1,31 @@
+data file type: 2
+
+mesh file
+D:\JavaWorks\FEM problems\structural\2D-contact\piston\small\bun.txt
+
+data folder:
+D:\JavaWorks\FEM problems\structural\2D-contact\piston\small\nrdisp
+
+file name common part:
+disp
+
+temporal: 0,10,1
+
+extension
+txt
+
+animation mode: 0
+
+batch mode: f
+
+timedelay: 200
+
+regions: 
+all
+
+rotstep:1
+
+dt:5.55555e-6
+
+node:0
+comp:1

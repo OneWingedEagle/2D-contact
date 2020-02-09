@@ -1,0 +1,87 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ Number of known u components : 32
+Numb of unknown displacements: 674
+ Number of known u components : 1348
+
+Loading data file completed.
+mech integ mode: 3
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\2D-contact\box\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force0.txt to the model.
+1794.0
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 674
+
+ Calculating stiffness matrix ...
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.61E-03
+ICCG iteration:    50	 error : 9.17E00	 res max: 5.15E-02
+ICCG iteration:   100	 error : 2.26E-07	 res max: 1.27E-09
+ICCG iteration:   101	 error : 2.26E-07	 res max: 1.27E-09
+Deformation Max: 9.304019799712212E-5 at node 50
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\disp0.txt
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force1.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.61E-03
+ICCG iteration:    50	 error : 9.17E00	 res max: 5.15E-02
+ICCG iteration:   100	 error : 2.26E-07	 res max: 1.27E-09
+ICCG iteration:   101	 error : 2.26E-07	 res max: 1.27E-09
+Deformation Max: 9.304019799712212E-5 at node 50
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\disp1.txt
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force2.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 4.08E-01
+ICCG iteration:    50	 error : 3.85E-03	 res max: 1.57E-03
+ICCG iteration:    86	 error : 6.18E-07	 res max: 2.52E-07
+Deformation Max: 9.304019786497257E-5 at node 50
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\disp2.txt
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force3.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 4.08E-01	 res max: 4.08E-01
+ICCG iteration:     7	 error : 9.12E-07	 res max: 9.12E-07
+Deformation Max: 9.304019739355586E-5 at node 50
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\disp3.txt
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force4.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 4.08E-01	 res max: 4.08E-01
+ICCG iteration:     7	 error : 8.53E-07	 res max: 8.53E-07
+Deformation Max: 9.30401971346323E-5 at node 50
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\disp4.txt
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force5.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 4.08E-01	 res max: 4.08E-01
+ICCG iteration:     2	 error : 7.72E-07	 res max: 7.72E-07
+Deformation Max: 9.304019720320986E-5 at node 50
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\disp5.txt
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force6.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 4.08E-01	 res max: 4.08E-01
+ICCG iteration:     2	 error : 9.96E-07	 res max: 9.96E-07
+Deformation Max: 9.304019708331977E-5 at node 50
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\disp6.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\data_out.txt
+0.00000e+00
+0.00000e+00
+0.00000e+00
+0.00000e+00
+0.00000e+00
+0.00000e+00
+0.00000e+00
+
+Computation time: 0.762 seconds
+Total cpu time (s):        0.9

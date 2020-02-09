@@ -1,0 +1,903 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ Number of known u components : 38
+Numb of unknown displacements: 280
+ Number of known u components : 550
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\2D-contact\piston\two_sided\penalty\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\piston\two_sided\penalty\force0.txt to the model.
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 280
+
+ Calculating stiffness matrix ...
+ Contact analysis....
+pf :1.5000000000000018E11
+pft :1.500000000000002E9
+load_iter: 0
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 17
+2, num slave nodes: 31,  numContactingNodes: 17
+totalnumContactingNodes: 34
+nr_iter_sub: 0           nr_err_sub: 1.0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 1.8398836136474175E-15
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 6.666870000474646E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 7.352025937080097E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 5.830962871963364E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 1
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.5
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 1.139827921194818E-15
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 5.51290965162382E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 5.554997055404799E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 5.677297363031197E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 2
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.33333333333333276
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 7.793431291514576E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 5.314433630159875E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 6.227612297886565E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 6.035352211866899E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 3
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.25
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 7.914991436946474E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 5.632529157449284E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 6.815739604706595E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 5.35185468745624E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 4
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.1999999999999996
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 5.596913392924459E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 5.581064529840634E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 5.789123768515194E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 5.653835305500499E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 5
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.16666666666666638
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 6.589254035498728E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 6.103442378529149E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 4.593862142839356E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 6.294238412452141E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 6
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.14285714285714277
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 6.468047553891221E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 6.403021351567462E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 5.57145821393743E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 5.510297496132178E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 7
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.12500000000000014
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 6.985646644520729E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 6.515634131925141E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 5.681101037821254E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 5.332050722277591E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 8
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.11111111111111073
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 5.660794811676213E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 5.541872977868806E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 6.314932442637173E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 5.310065036184773E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+load_iter: 9
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 0           nr_err_sub: 0.09999999999999991
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 1           nr_err_sub: 5.806693304411823E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 2           nr_err_sub: 6.058667786116657E-16
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter_sub: 3           nr_err_sub: 4.3290787622019497E-16
+ns =4
+1, num slave nodes: 31,  numContactingNodes: 0
+2, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 5.078626402385344E-16
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+node 181 free 
+node 182 free 
+node 183 free 
+node 184 stick false
+node 185 stick false
+node 186 stick false
+node 187 stick false
+node 188 stick false
+node 189 stick false
+node 190 stick false
+node 191 stick false
+node 192 stick false
+node 193 stick false
+node 194 stick false
+node 195 stick false
+node 196 stick false
+node 197 stick false
+node 198 stick false
+node 199 stick false
+node 200 stick false
+node 201 free 
+node 202 free 
+node 203 free 
+node 204 free 
+node 205 free 
+node 206 free 
+node 207 free 
+node 208 free 
+node 209 free 
+node 210 free 
+node 211 free 
+NR error
+ 0	5.8310e-16
+ 0	5.6773e-16
+ 0	6.0354e-16
+ 0	5.3519e-16
+ 0	5.6538e-16
+ 0	6.2942e-16
+ 0	5.5103e-16
+ 0	5.3321e-16
+ 0	5.3101e-16
+ 0	5.0786e-16
+Gap[micon] vs aug_iter
+0.0000e+00
+
+slide[micon] vs aug_iter
+0.0000e+00
+
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\two_sided\penalty\master_normal.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\two_sided\penalty\contact_force.txt
+Deformation Max: 2.923211005853827 at node 19
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\two_sided\penalty\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\two_sided\penalty\disp0.txt
+ Structural stress was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\two_sided\penalty\stress0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\two_sided\penalty\data_out.txt
+0.00000e+00
+
+Computation time: 1.187 seconds
+Total cpu time (s):        1.4

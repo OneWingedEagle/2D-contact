@@ -1,0 +1,624 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ Number of known u components : 106
+Numb of unknown displacements: 241
+ Number of known u components : 482
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\penalty\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\penalty\force0.txt to the model.
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 241
+
+ Calculating stiffness matrix ...
+ Contact analysis....
+pf :1.5000000000000012E11
+pft :1.5000000000000012E9
+load_iter: 0
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 0           nr_err: 1.0
+node 144 lamT:   0.0000e+00
+node 144 lamN:   0.0000e+00
+node 145 lamT:   0.0000e+00
+node 145 lamN:   0.0000e+00
+node 146 lamT:   0.0000e+00
+node 146 lamN:   0.0000e+00
+node 147 lamT:   0.0000e+00
+node 147 lamN:   0.0000e+00
+node 148 lamT:   0.0000e+00
+node 148 lamN:   0.0000e+00
+node 149 lamT:   0.0000e+00
+node 149 lamN:   0.0000e+00
+node 150 lamT:   0.0000e+00
+node 150 lamN:   0.0000e+00
+node 151 lamT:   0.0000e+00
+node 151 lamN:   0.0000e+00
+node 152 lamT:   0.0000e+00
+node 152 lamN:   0.0000e+00
+node 153 lamT:   0.0000e+00
+node 153 lamN:   0.0000e+00
+node 154 lamT:   0.0000e+00
+node 154 lamN:   0.0000e+00
+node 155 lamT:   0.0000e+00
+node 155 lamN:   0.0000e+00
+node 156 lamT:   0.0000e+00
+node 156 lamN:   0.0000e+00
+node 157 lamT:   0.0000e+00
+node 157 lamN:   0.0000e+00
+node 158 lamT:   0.0000e+00
+node 158 lamN:   0.0000e+00
+node 159 lamT:   0.0000e+00
+node 159 lamN:   0.0000e+00
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick true
+node 145 stick true
+node 146 stick true
+node 147 stick true
+node 148 stick true
+node 149 stick true
+node 150 stick true
+node 151 stick true
+node 152 stick true
+node 153 stick true
+node 154 stick true
+node 155 stick true
+node 156 stick true
+node 157 stick true
+node 158 stick true
+node 159 stick true
+node 160 stick false
+node 161 stick false
+node 162 stick false
+node 163 stick false
+node 164 stick false
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+194 xxxxxxxxxx 0.0
+196 xxxxxxxxxx 0.0
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 1           nr_err: 1.6726622096131483
+node 144 lamT:   -3.9905e+03
+node 144 lamN:   -2.1157e+02
+node 145 lamT:   -4.0076e+03
+node 145 lamN:   -2.0528e+02
+node 146 lamT:   -4.0964e+03
+node 146 lamN:   -1.9314e+02
+node 147 lamT:   -4.1674e+03
+node 147 lamN:   -5.1844e+02
+node 148 lamT:   -4.2174e+03
+node 148 lamN:   -7.0442e+02
+node 149 lamT:   -4.2544e+03
+node 149 lamN:   -7.5416e+02
+node 150 lamT:   -4.2823e+03
+node 150 lamN:   -7.7562e+02
+node 151 lamT:   -4.3044e+03
+node 151 lamN:   -7.6990e+02
+node 152 lamT:   -4.3220e+03
+node 152 lamN:   -7.4025e+02
+node 153 lamT:   -4.3365e+03
+node 153 lamN:   -7.0067e+02
+node 154 lamT:   -4.3484e+03
+node 154 lamN:   -6.4128e+02
+node 155 lamT:   -4.3584e+03
+node 155 lamN:   -5.7928e+02
+node 156 lamT:   -4.3665e+03
+node 156 lamN:   -4.9523e+02
+node 157 lamT:   -4.3730e+03
+node 157 lamN:   -4.1453e+02
+node 158 lamT:   -4.3768e+03
+node 158 lamN:   -2.6635e+02
+node 159 lamT:   -4.3781e+03
+node 159 lamN:   -2.7687e+01
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 stick false
+node 163 stick false
+node 164 stick false
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+194 xxxxxxxxxx -105.78675023254573
+196 xxxxxxxxxx -102.64203777553841
+198 xxxxxxxxxx -96.56818287317732
+200 xxxxxxxxxx -259.2193752204174
+202 xxxxxxxxxx -352.21136154354355
+204 xxxxxxxxxx -377.0782826161931
+206 xxxxxxxxxx -387.80890494411886
+208 xxxxxxxxxx -384.94811158194887
+210 xxxxxxxxxx -370.12653797410496
+212 xxxxxxxxxx -350.33620245034643
+214 xxxxxxxxxx -320.64081377879126
+216 xxxxxxxxxx -289.6418917780268
+218 xxxxxxxxxx -247.61279996647048
+220 xxxxxxxxxx -207.26285179054486
+222 xxxxxxxxxx -133.17640809549272
+224 xxxxxxxxxx -13.843691072128163
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 2           nr_err: 1.5069731554103254
+node 144 lamT:   -4.4326e+03
+node 144 lamN:   -5.7244e+02
+node 145 lamT:   -4.4528e+03
+node 145 lamN:   -5.3139e+02
+node 146 lamT:   -4.4804e+03
+node 146 lamN:   -6.9517e+02
+node 147 lamT:   -4.4992e+03
+node 147 lamN:   -1.0778e+03
+node 148 lamT:   -4.5120e+03
+node 148 lamN:   -1.2970e+03
+node 149 lamT:   -4.5235e+03
+node 149 lamN:   -1.3641e+03
+node 150 lamT:   -4.5342e+03
+node 150 lamN:   -1.3817e+03
+node 151 lamT:   -4.5451e+03
+node 151 lamN:   -1.3678e+03
+node 152 lamT:   -4.5560e+03
+node 152 lamN:   -1.3221e+03
+node 153 lamT:   -4.5675e+03
+node 153 lamN:   -1.2632e+03
+node 154 lamT:   -4.5793e+03
+node 154 lamN:   -1.1776e+03
+node 155 lamT:   -4.5917e+03
+node 155 lamN:   -1.0850e+03
+node 156 lamT:   -4.6048e+03
+node 156 lamN:   -9.5816e+02
+node 157 lamT:   -4.6188e+03
+node 157 lamN:   -8.2852e+02
+node 158 lamT:   -4.6339e+03
+node 158 lamN:   -6.2639e+02
+node 159 lamT:   -4.6501e+03
+node 159 lamN:   -4.4947e+02
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 stick false
+node 163 stick false
+node 164 stick false
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 3           nr_err: 4.918846198371803
+node 149 lamT:   -1.8601e+07
+node 149 lamN:   -1.1532e+04
+node 150 lamT:   -1.8601e+07
+node 150 lamN:   -8.5512e+03
+node 151 lamT:   -1.8601e+07
+node 151 lamN:   -6.9210e+03
+node 152 lamT:   -1.8601e+07
+node 152 lamN:   -5.5187e+03
+node 153 lamT:   -1.8601e+07
+node 153 lamN:   -4.8811e+03
+node 154 lamT:   -1.8601e+07
+node 154 lamN:   -4.2517e+03
+node 155 lamT:   -1.8601e+07
+node 155 lamN:   -4.0376e+03
+node 156 lamT:   -1.8601e+07
+node 156 lamN:   -3.6059e+03
+node 157 lamT:   -1.8601e+07
+node 157 lamN:   -3.5589e+03
+node 158 lamT:   -1.8600e+07
+node 158 lamN:   -2.8904e+03
+node 159 lamT:   -1.8600e+07
+node 159 lamN:   -2.9173e+03
+node 160 lamT:   -1.8600e+07
+node 160 lamN:   -1.7154e+03
+node 161 lamT:   -1.8600e+07
+node 161 lamN:   -8.2525e+02
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 4           nr_err: 17.203529483523745
+node 144 lamT:   -2.3300e+03
+node 144 lamN:   -2.4361e+04
+node 145 lamT:   -2.2873e+03
+node 145 lamN:   -2.5501e+04
+node 146 lamT:   -2.2250e+03
+node 146 lamN:   -2.7001e+04
+node 147 lamT:   -2.1316e+03
+node 147 lamN:   -2.8602e+04
+node 148 lamT:   -1.9902e+03
+node 148 lamN:   -2.9291e+04
+node 149 lamT:   -7.5367e+03
+node 149 lamN:   -2.4409e+04
+node 150 lamT:   -5.9874e+03
+node 150 lamN:   -1.9756e+04
+node 151 lamT:   -5.1831e+03
+node 151 lamN:   -1.2856e+04
+node 152 lamT:   -4.5257e+03
+node 152 lamN:   -1.0877e+04
+node 153 lamT:   -4.2567e+03
+node 153 lamN:   -8.2404e+03
+node 154 lamT:   -3.9961e+03
+node 154 lamN:   -7.5674e+03
+node 155 lamT:   -3.9412e+03
+node 155 lamN:   -6.7738e+03
+node 156 lamT:   -3.7804e+03
+node 156 lamN:   -5.9680e+03
+node 157 lamT:   -3.8124e+03
+node 157 lamN:   -5.2095e+03
+node 158 lamT:   -3.5412e+03
+node 158 lamN:   -3.6120e+03
+node 159 lamT:   -3.6188e+03
+node 159 lamN:   -2.4777e+03
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick true
+node 145 stick true
+node 146 stick true
+node 147 stick true
+node 148 stick true
+node 149 stick true
+node 150 stick true
+node 151 stick true
+node 152 stick true
+node 153 stick true
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+1, num slave nodes: 31,  numContactingNodes: 6
+totalnumContactingNodes: 6
+nr_iter: 5           nr_err: 48.98306580350352
+node 140 lamT:   5.2554e+07
+node 140 lamN:   -6.0540e+04
+node 141 lamT:   5.2554e+07
+node 141 lamN:   -6.9077e+04
+node 142 lamT:   5.2554e+07
+node 142 lamN:   -8.0139e+04
+node 143 lamT:   5.2555e+07
+node 143 lamN:   -9.1776e+04
+node 144 lamT:   5.2553e+07
+node 144 lamN:   -9.5430e+04
+node 145 lamT:   5.2553e+07
+node 145 lamN:   -8.4393e+04
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 stick false
+node 163 stick false
+node 164 stick false
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+194 xxxxxxxxxx 47715.22435018326
+196 xxxxxxxxxx 42196.37217163985
+1, num slave nodes: 31,  numContactingNodes: 6
+totalnumContactingNodes: 6
+nr_iter: 6           nr_err: 33.6609478770562
+node 140 lamT:   5.2597e+07
+node 140 lamN:   -5.0481e+04
+node 141 lamT:   5.2602e+07
+node 141 lamN:   -7.0987e+04
+node 142 lamT:   5.2608e+07
+node 142 lamN:   -8.4112e+04
+node 143 lamT:   5.2614e+07
+node 143 lamN:   -9.3895e+04
+node 144 lamT:   5.2568e+07
+node 144 lamN:   -9.5875e+04
+node 145 lamT:   5.2567e+07
+node 145 lamN:   -9.5271e+04
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 stick false
+node 163 stick false
+node 164 stick false
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+1, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 7           nr_err: 111.94112703634305
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 stick false
+node 163 stick false
+node 164 stick false
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+1, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 8           nr_err: 124.91707620252848
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 stick false
+node 163 stick false
+node 164 stick false
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 9           nr_err: 2504.0239560349837
+node 149 lamT:   -1.8618e+07
+node 149 lamN:   -3.7333e+06
+node 150 lamT:   -1.8618e+07
+node 150 lamN:   -3.5325e+06
+node 151 lamT:   -1.8618e+07
+node 151 lamN:   -3.3330e+06
+node 152 lamT:   -1.8618e+07
+node 152 lamN:   -3.1342e+06
+node 153 lamT:   -1.8618e+07
+node 153 lamN:   -2.9357e+06
+node 154 lamT:   -1.8618e+07
+node 154 lamN:   -2.7374e+06
+node 155 lamT:   -1.8618e+07
+node 155 lamN:   -2.5393e+06
+node 156 lamT:   -1.8618e+07
+node 156 lamN:   -2.3412e+06
+node 157 lamT:   -1.8618e+07
+node 157 lamN:   -2.1437e+06
+node 158 lamT:   -1.8618e+07
+node 158 lamN:   -1.9464e+06
+node 159 lamT:   -1.8618e+07
+node 159 lamN:   -1.7405e+06
+node 160 lamT:   -1.8618e+07
+node 160 lamN:   -1.5296e+06
+node 161 lamT:   -1.8618e+07
+node 161 lamN:   -1.3455e+06
+node 162 lamT:   -1.8618e+07
+node 162 lamN:   -1.1768e+06
+node 163 lamT:   -1.8618e+07
+node 163 lamN:   -1.0006e+06
+node 164 lamT:   -1.8618e+07
+node 164 lamN:   -8.2019e+05
+node 140 stick false
+node 141 stick false
+node 142 stick false
+node 143 stick false
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 stick false
+node 163 stick false
+node 164 stick false
+node 165 stick false
+node 166 stick false
+node 167 stick false
+node 168 stick false
+node 169 stick false
+node 170 stick false
+NR error
+ 0	1.0000e+00
+ 1	1.6727e+00
+ 2	1.5070e+00
+ 3	4.9188e+00
+ 4	1.7204e+01
+ 5	4.8983e+01
+ 6	3.3661e+01
+ 7	1.1194e+02
+ 8	1.2492e+02
+ 9	2.5040e+03
+Gap[micon] vs aug_iter
+2.4888e-05
+
+slide[micon] vs aug_iter
+3.5046e-02
+
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\penalty\master_normal.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\penalty\contact_force.txt
+Deformation Max: 0.012422956112052661 at node 40
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\penalty\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\penalty\disp0.txt
+ Structural stress was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\penalty\stress0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\penalty\data_out.txt
+0.00000e+00
+
+Computation time: 1.0 seconds

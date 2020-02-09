@@ -1,0 +1,91 @@
+//data file format code  (0. Magnetic, 1. Mechanical, 2. coupled) 
+1
+//dimension 
+2
+//coordinate system  (0. Cartesian 1. Cylindrical, 2. Spherical) 
+0
+//motor
+false
+//Number_of_Regions
+4
+//(name, density, E, v, [alpha,dT])
+box,t,7800, 2e11, .0
+connector,t,100, 5e6, .0
+base,t,7800, 1e11, .0
+pile,t,7800, 1e11, .0
+//boundary condition:
+b1:
+b2:
+b3:
+b4:
+3
+x,-1,-.0499,0,0,1,0
+x,.0499,1.,0,0,1,0
+y,-1,.0001,0,0,1,0
+force folder:
+D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side
+
+force files:0,0,1
+
+intm:0
+
+dt:5.55555e-6
+
+contact
+1
+1.
+.5
+slave
+31
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+master
+8
+1	2
+2	3
+3	4
+4	5
+5	6
+6	7
+7	8
+8	9
+
+
+transfer2DTo3D:f
+mechAnalysis:true
+modalAnalysis:f
+loadDisp:f	
+saveForce:t
+saveDisp:t
+saveStress:t	
+rayAlpha=1e-5
+rayBeta=1e-5

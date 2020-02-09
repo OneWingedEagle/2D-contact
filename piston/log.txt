@@ -1,0 +1,98 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ Number of known u components : 28
+Numb of unknown displacements: 280
+ Number of known u components : 560
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\2D-contact\piston\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\piston\force0.txt to the model.
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 280
+
+ Calculating stiffness matrix ...
+ Contact analysis....
+pf :1.5000000000000018E11
+pft :1.500000000000002E9
+load_iter: 0
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 17
+2, num slave nodes: 31,  numContactingNodes: 17
+totalnumContactingNodes: 34
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.80E-02
+ICCG iteration:    50	 error : 8.58E-02	 res max: 1.55E-03
+ICCG iteration:    72	 error : 4.64E-07	 res max: 8.37E-09
+nr_iter_sub: 0           nr_err_sub: 2.275779876423601E-6
+1, num slave nodes: 31,  numContactingNodes: 16
+2, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 32
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.55E-02
+ICCG iteration:    50	 error : 7.39E-06	 res max: 1.15E-07
+ICCG iteration:    72	 error : 4.12E-07	 res max: 6.40E-09
+nr_iter_sub: 1           nr_err_sub: 1.9605353028342653E-6
+1, num slave nodes: 31,  numContactingNodes: 14
+2, num slave nodes: 31,  numContactingNodes: 14
+totalnumContactingNodes: 28
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 8.26E-03
+ICCG iteration:    50	 error : 2.17E-05	 res max: 1.79E-07
+ICCG iteration:    72	 error : 4.82E-07	 res max: 3.98E-09
+nr_iter_sub: 2           nr_err_sub: 1.0435409303596014E-6
+1, num slave nodes: 31,  numContactingNodes: 16
+2, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 32
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 8.19E-03
+ICCG iteration:    50	 error : 1.19E-05	 res max: 9.78E-08
+ICCG iteration:    71	 error : 5.70E-07	 res max: 4.67E-09
+nr_iter_sub: 3           nr_err_sub: 1.0340620750658142E-6
+1, num slave nodes: 31,  numContactingNodes: 14
+2, num slave nodes: 31,  numContactingNodes: 14
+totalnumContactingNodes: 28
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 7.43E-03
+ICCG iteration:    50	 error : 1.35E-05	 res max: 1.00E-07
+ICCG iteration:    71	 error : 8.32E-07	 res max: 6.18E-09
+nr_iter_sub: 4           nr_err_sub: 9.382429595115841E-7
+ns =5
+1, num slave nodes: 31,  numContactingNodes: 16
+2, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 32
+nr_iter: 0           nr_err: 0.6533145764555999
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 9.52E-03
+ICCG iteration:    50	 error : 5.69E-06	 res max: 5.42E-08
+ICCG iteration:    72	 error : 2.47E-07	 res max: 2.35E-09
+NR error
+6.5331e-01
+
+Gap[micon] vs aug_iter
+4.6181e-09
+
+slide[micon] vs aug_iter
+2.2502e-03
+
+2.2502e-03
+
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\master_normal.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\contact_force.txt
+Deformation Max: 0.002250182763399368 at node 24
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\disp0.txt
+ Structural stress was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\stress0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\data_out.txt
+   0.00000
+
+Computation time: 0.813 seconds
+Total cpu time (s):        1.0

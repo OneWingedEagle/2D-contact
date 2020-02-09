@@ -1,0 +1,176 @@
+//data file format code  (0. Magnetic, 1. Mechanical, 2. coupled) 
+1
+//dimension 
+2
+//coordinate system  (0. Cartesian 1. Cylindrical, 2. Spherical) 
+0
+//motor
+false
+//Number_of_Regions
+3
+//(name, density, E, v, [alpha,dT])
+PM1,t,7500, 1.6e11, .24
+PM2,t,7500, 1.6e11, .24
+rotor,t,7850, 2.1e11, .3
+//boundary condition:
+b1:
+b2:
+b3:
+b4:
+2
+x,-1,.001,0,0
+y,-1,.001,1,0
+force folder:
+D:\JavaWorks\FEM problems\structural\2D-contact\ipm_v
+force files:0,0,1
+
+intm:0
+
+dt:5.55555e-6
+
+contact
+4
+1.0
+1.0
+slave
+28
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+master
+21
+299	230
+230	300
+300	301
+301	302
+302	303
+303	304
+304	305
+305	306
+306	307
+307	308
+308	309
+309	310
+310	311
+311	312
+312	313
+313	314
+314	315
+315	316
+316	317
+317	231
+231	318
+1.0
+1.0
+slave
+4
+28
+56
+84
+112
+master
+2
+235	625
+625	236
+1.0
+1.0
+slave
+28
+822
+823
+824
+825
+826
+827
+828
+829
+830
+831
+832
+833
+834
+835
+836
+837
+838
+839
+840
+841
+842
+843
+844
+845
+846
+847
+848
+849
+master
+21
+903	853
+853	904
+904	905
+905	906
+906	907
+907	908
+908	909
+909	910
+910	911
+911	912
+912	913
+913	914
+914	915
+915	916
+916	917
+917	918
+918	919
+919	920
+920	921
+921	854
+854	922
+1.0
+1.0
+slave
+4
+653
+681
+709
+737
+master
+2
+858	1229
+1229	859
+
+transfer2DTo3D:f
+mechAnalysis:true
+modalAnalysis:f
+loadDisp:f	
+saveForce:t
+saveDisp:t
+saveStress:t	
+rayAlpha=1e-5
+rayBeta=1e-5

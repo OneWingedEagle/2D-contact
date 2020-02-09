@@ -1,0 +1,992 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ Number of known u components : 32
+Numb of unknown displacements: 674
+ Number of known u components : 1348
+
+Loading data file completed.
+mech integ mode: 3
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\2D-contact\box\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force0.txt to the model.
+1794.0
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 674
+
+ Calculating stiffness matrix ...
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.61E-03
+ICCG iteration:    50	 error : 7.37E00	 res max: 4.14E-02
+ICCG iteration:   100	 error : 3.46E-07	 res max: 1.94E-09
+ICCG iteration:   101	 error : 3.46E-07	 res max: 1.94E-09
+Deformation Max: 1.8123015262314725E-4 at node 50
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force1.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.61E-03
+ICCG iteration:    50	 error : 7.37E00	 res max: 4.14E-02
+ICCG iteration:   100	 error : 3.46E-07	 res max: 1.94E-09
+ICCG iteration:   101	 error : 3.46E-07	 res max: 1.94E-09
+Deformation Max: 1.8123015262314725E-4 at node 50
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force2.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 5.63E-03
+ICCG iteration:    50	 error : 7.41E00	 res max: 4.18E-02
+ICCG iteration:   100	 error : 3.25E-07	 res max: 1.83E-09
+ICCG iteration:   101	 error : 3.25E-07	 res max: 1.83E-09
+Deformation Max: 1.8123015261933267E-4 at node 50
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force3.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.91E-09	 res max: 1.91E-09
+Deformation Max: 1.8123015262053502E-4 at node 50
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force4.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.22E-09	 res max: 1.22E-09
+Deformation Max: 1.8123015262075956E-4 at node 50
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force5.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.25E-09	 res max: 1.25E-09
+Deformation Max: 1.8123015262103194E-4 at node 50
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\box\force6.txt to the model.
+ Calculating vibration using the Newmark method....
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 8.39E-10	 res max: 8.39E-10
+Deformation Max: 1.8123015262122634E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force7.txt (The system cannot find the file specified)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+Computing Preconditioner..
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 8.73E-10	 res max: 8.73E-10
+Deformation Max: 1.812301526212811E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force8.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 6.12E-10	 res max: 6.12E-10
+Deformation Max: 1.812301526213684E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force9.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force10.txt (The system cannot find the file specified)
+ICCG iteration:     2	 error : 6.48E-10	 res max: 6.48E-10
+Deformation Max: 1.812301526213449E-4 at node 50
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 4.66E-10	 res max: 4.66E-10
+Deformation Max: 1.8123015262136918E-4 at node 50
+ Calculating vibration using the Newmark method....
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force11.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 4.98E-10	 res max: 4.98E-10
+Deformation Max: 1.8123015262131578E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force12.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+Computing Preconditioner..
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 3.63E-10	 res max: 3.63E-10
+Deformation Max: 1.8123015262130985E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force13.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 3.89E-10	 res max: 3.89E-10
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force14.txt (The system cannot find the file specified)
+Deformation Max: 1.8123015262124894E-4 at node 50
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 2.86E-10	 res max: 2.86E-10
+Deformation Max: 1.812301526212304E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force15.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 3.08E-10	 res max: 3.08E-10
+Deformation Max: 1.8123015262117207E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force16.txt (The system cannot find the file specified)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 2.27E-10	 res max: 2.27E-10
+Deformation Max: 1.8123015262114985E-4 at node 50
+ Calculating vibration using the Newmark method....
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force17.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 2.44E-10	 res max: 2.44E-10
+Deformation Max: 1.81230152621098E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force18.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.81E-10	 res max: 1.81E-10
+Deformation Max: 1.812301526210763E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force19.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.95E-10	 res max: 1.95E-10
+Deformation Max: 1.8123015262103245E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force20.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method..	at java.io.FileInputStream.<init>(Unknown Source)
+..
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.44E-10	 res max: 1.44E-10
+Deformation Max: 1.8123015262101294E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force21.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.56E-10	 res max: 1.56E-10
+Deformation Max: 1.8123015262097656E-4 at node 50
+ Calculating vibration using the Newmark method....
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force22.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.15E-10	 res max: 1.15E-10
+Deformation Max: 1.8123015262096003E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force23.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.25E-10	 res max: 1.25E-10
+Deformation Max: 1.8123015262093024E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force24.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+Computing Preconditioner..
+	at main.Main$1.run(Main.java:101)
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 9.17E-11	 res max: 9.17E-11
+Deformation Max: 1.8123015262091653E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force25.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 9.98E-11	 res max: 9.98E-11
+Deformation Max: 1.8123015262089243E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force26.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force27.txt (The system cannot find the file specified)
+ICCG iteration:     2	 error : 7.32E-11	 res max: 7.32E-11
+Deformation Max: 1.8123015262088132E-4 at node 50
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 8.01E-11	 res max: 8.01E-11
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force28.txt (The system cannot find the file specified)
+Deformation Max: 1.8123015262086172E-4 at node 50
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 5.83E-11	 res max: 5.83E-11
+Deformation Max: 1.8123015262085286E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force29.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 6.44E-11	 res max: 6.44E-11
+Deformation Max: 1.812301526208374E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force30.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 4.65E-11	 res max: 4.65E-11
+Deformation Max: 1.8123015262083022E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force31.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 5.20E-11	 res max: 5.20E-11
+Deformation Max: 1.812301526208179E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force32.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 3.70E-11	 res max: 3.70E-11
+Deformation Max: 1.812301526208124E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force33.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 4.20E-11	 res max: 4.20E-11
+Deformation Max: 1.8123015262080241E-4 at node 50
+ Calculating vibration using the Newmark method....
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force34.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 2.94E-11	 res max: 2.94E-11
+Deformation Max: 1.8123015262079832E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force35.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 3.41E-11	 res max: 3.41E-11
+Deformation Max: 1.812301526207902E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force36.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 2.33E-11	 res max: 2.33E-11
+Deformation Max: 1.8123015262078724E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force37.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 2.78E-11	 res max: 2.78E-11
+Deformation Max: 1.8123015262078065E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force38.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force39.txt (The system cannot find the file specified)
+ICCG iteration:     2	 error : 1.84E-11	 res max: 1.84E-11
+Deformation Max: 1.8123015262077856E-4 at node 50
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 2.28E-11	 res max: 2.28E-11
+Deformation Max: 1.8123015262077347E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force40.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.45E-11	 res max: 1.45E-11
+Deformation Max: 1.8123015262077179E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force41.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.89E-11	 res max: 1.89E-11
+Deformation Max: 1.8123015262076764E-4 at node 50
+ Calculating vibration using the Newmark method....
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force42.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.14E-11	 res max: 1.14E-11
+Deformation Max: 1.8123015262076658E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force43.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.58E-11	 res max: 1.58E-11
+Deformation Max: 1.812301526207632E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force44.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 8.95E-12	 res max: 8.95E-12
+Deformation Max: 1.8123015262076265E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force45.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.34E-11	 res max: 1.34E-11
+Deformation Max: 1.8123015262075983E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force46.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+Computing Preconditioner..
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 7.05E-12	 res max: 7.05E-12
+Deformation Max: 1.8123015262075964E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force47.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 1.14E-11	 res max: 1.14E-11
+Deformation Max: 1.812301526207576E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force48.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 5.67E-12	 res max: 5.67E-12
+Deformation Max: 1.8123015262075753E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force49.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 9.61E-12	 res max: 9.61E-12
+Deformation Max: 1.8123015262075569E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force50.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+ Calculating vibration using the Newmark method....
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(Run	at main.Main$1.run(Main.java:101)
+Mech.java:201)
+	at main.Main.runMech(Main.java:154)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 4.76E-12	 res max: 4.76E-12
+Deformation Max: 1.8123015262075596E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force51.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 8.01E-12	 res max: 8.01E-12
+Deformation Max: 1.8123015262075474E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force52.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force53.txt (The system cannot find the file specified)
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 4.22E-12	 res max: 4.22E-12
+Deformation Max: 1.8123015262075525E-4 at node 50
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 6.60E-12	 res max: 6.60E-12
+Deformation Max: 1.8123015262075436E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force54.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 3.92E-12	 res max: 3.92E-12
+Deformation Max: 1.8123015262075495E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force55.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 5.49E-12	 res max: 5.49E-12
+Deformation Max: 1.8123015262075422E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force56.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 3.72E-12	 res max: 3.72E-12
+Deformation Max: 1.812301526207549E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force57.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 4.78E-12	 res max: 4.78E-12
+Deformation Max: 1.8123015262075433E-4 at node 50
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force58.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force59.txt (The system cannot find the file specified)
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+	at java.io.FileInputStream.open0(Native Method)
+ICCG iteration:     2	 error : 3.52E-12	 res max: 3.52E-12
+Deformation Max: 1.81230152620755E-4 at node 50
+	at java.io.FileInputStream.open(Unknown Source)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 4.36E-12	 res max: 4.36E-12
+Deformation Max: 1.812301526207545E-4 at node 50
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\disp59.txt
+java.io.FileNotFoundException: D:\JavaWorks\FEM problems\structural\2D-contact\box\force60.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+ Calculating vibration using the Newmark method....
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at io.Loader.loadNodalField(Loader.java:1678)
+	at io.Loader.loadNodalField(Loader.java:1661)
+	at fem.Model.loadNodalField(Model.java:526)
+	at fem.RunMech.runMech(RunMech.java:201)
+	at main.Main.runMech(Main.java:154)
+	at main.Main$1.run(Main.java:101)
+Computing Preconditioner..
+ICCG iteration:     0	 error : 5.63E-03	 res max: 5.63E-03
+ICCG iteration:     2	 error : 3.33E-12	 res max: 3.33E-12
+Deformation Max: 1.8123015262075512E-4 at node 50
+ Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\box\data_out.txt
+Computation time: 1.496 seconds
+Total cpu time (s):        1.7

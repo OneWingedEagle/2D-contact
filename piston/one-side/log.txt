@@ -1,0 +1,504 @@
+
+Loading mesh file completed.
+// data type (0: Magnetic)
+1
+// dimension (2: 2D, 3:3D 
+// coordCode (0: Cartesian, 1: Cylindrical 
+ Number of known u components : 106
+Numb of unknown displacements: 241
+ Number of known u components : 482
+
+Loading data file completed.
+mech integ mode: 0
+
+ Bun data was written to:
+    D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\bun.txt
+
+Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\force0.txt to the model.
+ Structural analysis... 
+
+ Number of unknown non-fixed points : 241
+
+ Calculating stiffness matrix ...
+ Contact analysis....
+pf :1.5000000000000012E11
+pft :1.5000000000000012E9
+load_iter: 0
+cont_iter: 0
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 0           nr_err: 1.0
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 7.23E-03
+ICCG iteration:    26	 error : 6.14E-07	 res max: 4.44E-09
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 1           nr_err: 5.7516417126301574E-5
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 4.58E-07
+ICCG iteration:    26	 error : 3.40E-07	 res max: 1.56E-13
+node 144 lamT:   -5.0549e+02
+node 144 lamN:   -7.0630e+02
+node 145 lamT:   -5.0034e+02
+node 145 lamN:   -5.0519e+02
+node 146 lamT:   -4.9746e+02
+node 146 lamN:   -4.5920e+02
+node 147 lamT:   -4.9572e+02
+node 147 lamN:   -4.6061e+02
+node 148 lamT:   -4.9469e+02
+node 148 lamN:   -4.6585e+02
+node 149 lamT:   -4.9418e+02
+node 149 lamN:   -4.7179e+02
+node 150 lamT:   -4.9401e+02
+node 150 lamN:   -4.7776e+02
+node 151 lamT:   -4.9416e+02
+node 151 lamN:   -4.8295e+02
+node 152 lamT:   -4.9460e+02
+node 152 lamN:   -4.8721e+02
+node 153 lamT:   -4.9540e+02
+node 153 lamN:   -4.8999e+02
+node 154 lamT:   -4.9663e+02
+node 154 lamN:   -4.9097e+02
+node 155 lamT:   -4.9846e+02
+node 155 lamN:   -4.8965e+02
+node 156 lamT:   -5.0116e+02
+node 156 lamN:   -4.8207e+02
+node 157 lamT:   -5.0522e+02
+node 157 lamN:   -4.7416e+02
+node 158 lamT:   -5.1137e+02
+node 158 lamN:   -4.7093e+02
+node 159 lamT:   -5.2088e+02
+node 159 lamN:   -5.8521e+02
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 free 
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+cont_iter: 1
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 0           nr_err: 0.9771770446051118
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 7.22E-03
+ICCG iteration:    34	 error : 3.14E-07	 res max: 2.27E-09
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 1           nr_err: 4973.058613938294
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 4.52E01
+ICCG iteration:    28	 error : 8.12E-07	 res max: 3.67E-05
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 2           nr_err: 1.5922579539390924
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.33E-02
+ICCG iteration:    34	 error : 8.32E-07	 res max: 1.11E-08
+1, num slave nodes: 31,  numContactingNodes: 5
+totalnumContactingNodes: 5
+nr_iter: 3           nr_err: 4973.035843331096
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 4.52E01
+ICCG iteration:    31	 error : 2.15E-07	 res max: 9.70E-06
+1, num slave nodes: 31,  numContactingNodes: 13
+totalnumContactingNodes: 13
+nr_iter: 4           nr_err: 11.965235627183041
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 8.67E-02
+ICCG iteration:    27	 error : 2.99E-07	 res max: 2.60E-08
+1, num slave nodes: 31,  numContactingNodes: 14
+totalnumContactingNodes: 14
+nr_iter: 5           nr_err: 0.3887834199541926
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 3.35E-03
+ICCG iteration:    27	 error : 3.13E-07	 res max: 1.05E-09
+1, num slave nodes: 31,  numContactingNodes: 11
+totalnumContactingNodes: 11
+nr_iter: 6           nr_err: 0.008352793104577315
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 9.59E-05
+ICCG iteration:    27	 error : 2.61E-07	 res max: 2.51E-11
+1, num slave nodes: 31,  numContactingNodes: 8
+totalnumContactingNodes: 8
+nr_iter: 7           nr_err: 0.3034277683523523
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 2.75E-03
+ICCG iteration:    27	 error : 6.17E-07	 res max: 1.70E-09
+1, num slave nodes: 31,  numContactingNodes: 9
+totalnumContactingNodes: 9
+nr_iter: 8           nr_err: 0.30337153099278624
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 2.74E-03
+ICCG iteration:    27	 error : 8.81E-07	 res max: 2.42E-09
+1, num slave nodes: 31,  numContactingNodes: 6
+totalnumContactingNodes: 6
+nr_iter: 9           nr_err: 0.2793094336277393
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 2.60E-03
+ICCG iteration:    29	 error : 2.85E-07	 res max: 7.39E-10
+node 148 lamT:   -4.4667e+02
+node 148 lamN:   -3.5366e+01
+node 149 lamT:   -4.3926e+02
+node 149 lamN:   -1.5217e+01
+node 150 lamT:   -4.3561e+02
+node 150 lamN:   -7.0434e+00
+node 151 lamT:   -4.3455e+02
+node 151 lamN:   -1.1881e+01
+node 152 lamT:   -4.3607e+02
+node 152 lamN:   -1.5001e+01
+node 153 lamT:   -4.3991e+02
+node 153 lamN:   -1.8102e+01
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 free 
+node 144 free 
+node 145 free 
+node 146 free 
+node 147 free 
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 free 
+node 155 free 
+node 156 free 
+node 157 free 
+node 158 free 
+node 159 free 
+node 160 stick false
+node 161 stick false
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+cont_iter: 2
+1, num slave nodes: 31,  numContactingNodes: 12
+totalnumContactingNodes: 12
+nr_iter: 0           nr_err: 1.2850944287215953
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.11E-02
+ICCG iteration:    28	 error : 4.42E-07	 res max: 4.92E-09
+1, num slave nodes: 31,  numContactingNodes: 13
+totalnumContactingNodes: 13
+nr_iter: 1           nr_err: 14.33160953098371
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.07E-01
+ICCG iteration:    26	 error : 3.51E-07	 res max: 3.74E-08
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 2           nr_err: 1.251237319527956
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 9.30E-03
+ICCG iteration:    26	 error : 5.66E-07	 res max: 5.26E-09
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 3           nr_err: 6.24472680333661E-5
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 4.56E-07
+ICCG iteration:    24	 error : 9.38E-07	 res max: 4.28E-13
+node 144 lamT:   -6.1086e+02
+node 144 lamN:   -7.0931e+02
+node 145 lamT:   -6.0559e+02
+node 145 lamN:   -5.2262e+02
+node 146 lamT:   -6.0439e+02
+node 146 lamN:   -4.7604e+02
+node 147 lamT:   -6.0588e+02
+node 147 lamN:   -4.7049e+02
+node 148 lamT:   -6.1069e+02
+node 148 lamN:   -4.2293e+02
+node 149 lamT:   -6.1967e+02
+node 149 lamN:   -4.0050e+02
+node 150 lamT:   -6.3647e+02
+node 150 lamN:   -4.1624e+02
+node 151 lamT:   -6.4408e+02
+node 151 lamN:   -4.7369e+02
+node 152 lamT:   -6.4134e+02
+node 152 lamN:   -5.4989e+02
+node 153 lamT:   -6.2003e+02
+node 153 lamN:   -5.2746e+02
+node 154 lamT:   -6.1213e+02
+node 154 lamN:   -4.9489e+02
+node 155 lamT:   -6.0774e+02
+node 155 lamN:   -4.7806e+02
+node 156 lamT:   -6.0651e+02
+node 156 lamN:   -4.6424e+02
+node 157 lamT:   -6.0819e+02
+node 157 lamN:   -4.5620e+02
+node 158 lamT:   -6.1338e+02
+node 158 lamN:   -4.6337e+02
+node 159 lamT:   -6.2333e+02
+node 159 lamN:   -6.0575e+02
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 free 
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 stick false
+node 161 stick false
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+cont_iter: 3
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 0           nr_err: 1.024896833865817
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 7.82E-03
+ICCG iteration:    34	 error : 3.01E-07	 res max: 2.36E-09
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 1           nr_err: 3.4702217363923378
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 2.50E-02
+ICCG iteration:    18	 error : 5.67E-07	 res max: 1.42E-08
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 2           nr_err: 1.480221681633289
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.04E-02
+ICCG iteration:    20	 error : 9.97E-07	 res max: 1.04E-08
+1, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 3           nr_err: 1.3885132440512011E-6
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.04E-08
+ICCG iteration:    34	 error : 4.28E-07	 res max: 4.46E-15
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 free 
+node 144 stick false
+node 145 stick false
+node 146 free 
+node 147 free 
+node 148 free 
+node 149 free 
+node 150 free 
+node 151 free 
+node 152 free 
+node 153 free 
+node 154 free 
+node 155 free 
+node 156 free 
+node 157 free 
+node 158 free 
+node 159 free 
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+cont_iter: 4
+1, num slave nodes: 31,  numContactingNodes: 0
+totalnumContactingNodes: 0
+nr_iter: 0           nr_err: 0.9675103607590522
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 7.45E-03
+ICCG iteration:    34	 error : 3.46E-07	 res max: 2.58E-09
+1, num slave nodes: 31,  numContactingNodes: 8
+totalnumContactingNodes: 8
+nr_iter: 1           nr_err: 22545.896038478513
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.95E02
+ICCG iteration:    29	 error : 3.07E-07	 res max: 5.99E-05
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 2           nr_err: 54.12788943372724
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 3.86E-01
+ICCG iteration:    24	 error : 7.69E-07	 res max: 2.97E-07
+1, num slave nodes: 31,  numContactingNodes: 14
+totalnumContactingNodes: 14
+nr_iter: 3           nr_err: 0.3427647490045
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 3.88E-03
+ICCG iteration:    26	 error : 6.46E-07	 res max: 2.51E-09
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 4           nr_err: 3.370986637898558
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 2.64E-02
+ICCG iteration:    25	 error : 6.43E-07	 res max: 1.70E-08
+1, num slave nodes: 31,  numContactingNodes: 16
+totalnumContactingNodes: 16
+nr_iter: 5           nr_err: 1.4859311919553198E-4
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.10E-06
+ICCG iteration:    25	 error : 6.42E-07	 res max: 7.04E-13
+node 144 lamT:   -5.0549e+02
+node 144 lamN:   -7.0606e+02
+node 145 lamT:   -5.0034e+02
+node 145 lamN:   -5.0502e+02
+node 146 lamT:   -4.9746e+02
+node 146 lamN:   -4.5910e+02
+node 147 lamT:   -4.9572e+02
+node 147 lamN:   -4.6053e+02
+node 148 lamT:   -4.9469e+02
+node 148 lamN:   -4.6583e+02
+node 149 lamT:   -4.9418e+02
+node 149 lamN:   -4.7178e+02
+node 150 lamT:   -4.9400e+02
+node 150 lamN:   -4.7776e+02
+node 151 lamT:   -4.9416e+02
+node 151 lamN:   -4.8295e+02
+node 152 lamT:   -4.9460e+02
+node 152 lamN:   -4.8722e+02
+node 153 lamT:   -4.9540e+02
+node 153 lamN:   -4.9000e+02
+node 154 lamT:   -4.9663e+02
+node 154 lamN:   -4.9098e+02
+node 155 lamT:   -4.9846e+02
+node 155 lamN:   -4.8967e+02
+node 156 lamT:   -5.0116e+02
+node 156 lamN:   -4.8209e+02
+node 157 lamT:   -5.0522e+02
+node 157 lamN:   -4.7417e+02
+node 158 lamT:   -5.1137e+02
+node 158 lamN:   -4.7094e+02
+node 159 lamT:   -5.2088e+02
+node 159 lamN:   -5.8524e+02
+node 140 free 
+node 141 free 
+node 142 free 
+node 143 free 
+node 144 stick false
+node 145 stick false
+node 146 stick false
+node 147 stick false
+node 148 stick false
+node 149 stick false
+node 150 stick false
+node 151 stick false
+node 152 stick false
+node 153 stick false
+node 154 stick false
+node 155 stick false
+node 156 stick false
+node 157 stick false
+node 158 stick false
+node 159 stick false
+node 160 free 
+node 161 free 
+node 162 free 
+node 163 free 
+node 164 free 
+node 165 free 
+node 166 free 
+node 167 free 
+node 168 free 
+node 169 free 
+node 170 free 
+NR error
+ 0	1.0000e+00
+ 1	5.7516e-05
+ 0	9.7718e-01
+ 1	4.9731e+03
+ 2	1.5923e+00
+ 3	4.9730e+03
+ 4	1.1965e+01
+ 5	3.8878e-01
+ 6	8.3528e-03
+ 7	3.0343e-01
+ 8	3.0337e-01
+ 9	2.7931e-01
+ 0	1.2851e+00
+ 1	1.4332e+01
+ 2	1.2512e+00
+ 3	6.2447e-05
+ 0	1.0249e+00
+ 1	3.4702e+00
+ 2	1.4802e+00
+ 3	1.3885e-06
+ 0	9.6751e-01
+ 1	2.2546e+04
+ 2	5.4128e+01
+ 3	3.4276e-01
+ 4	3.3710e+00
+ 5	1.4859e-04
+Gap[micon] vs aug_iter
+4.7087e-09
+2.3578e-10
+4.7288e-09
+0.0000e+00
+4.7070e-09
+
+slide[micon] vs aug_iter
+3.4725e-07
+6.2002e-03
+6.2002e-03
+6.2530e-03
+6.2530e-03
+
+3.7164e-07
+
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\master_normal.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\contact_force.txt
+Deformation Max: 3.7208511172275764E-7 at node 41
+ Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\force_out0.txt
+ Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\disp0.txt
+ Structural stress was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\stress0.txt
+ Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\piston\one-side\data_out.txt
+0.00000e+00
+
+Computation time: 1.094 seconds
+Total cpu time (s):        1.3
