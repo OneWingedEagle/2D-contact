@@ -9,8 +9,8 @@ false
 //Number_of_Regions
 3
 //(name, density, E, v, [alpha,dT])
-base,t,7800, 2e11, .3
-connector,t,7800, 1e11, .3
+base,t,7800, 1e11, .3
+connector,t,7800, 1e10, .3
 pile,t,7800, 2e11, .3
 //boundary condition:
 b1:
@@ -23,19 +23,49 @@ x,.1999,1.,0,0,1,0
 force folder:
 D:\JavaWorks\FEM problems\structural\2D-contact\box
 
-force files:0,60,1
+force files:0,0,1
 
-intm:3
+intm:0
 
-dt:5.55555e-3
+dt:5.55555e-4
 
+contact
+1
+1.
+0.
+slave
+14
+644
+645
+646
+647
+648
+649
+650
+651
+652
+653
+654
+655
+656
+657
+master
+8
+1	2
+2	3
+3	4
+4	5
+5	6
+6	7
+7	8
+8	9
 
 transfer2DTo3D:f
 mechAnalysis:true
 modalAnalysis:f
 loadDisp:f	
 saveForce:false
-saveDisp:f
+saveDisp:t
 saveStress:false	
 rayAlpha=0e-5
 rayBeta=0e-5

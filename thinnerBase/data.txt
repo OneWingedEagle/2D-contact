@@ -16,16 +16,15 @@ b1:
 b2:
 b3:
 b4:
-3
+2
 x,-1,-.1999,0,0,1,0
 x,.1999,1.,0,0,1,0
-x,-.001,.001,y,.04,1,0,0
 force folder:
 D:\JavaWorks\FEM problems\structural\2D-contact\thinnerBase
 
 force files:0,0,1
 
-intm:-4
+intm:0
 
 dt:5.55555e-6
 

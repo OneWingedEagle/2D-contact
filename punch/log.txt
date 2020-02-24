@@ -23,116 +23,141 @@ Force was loaded from D:\JavaWorks\FEM problems\structural\2D-contact\punch\forc
  Calculating stiffness matrix ...
  Contact analysis....
 pf :2.1891427113939252E11
-pft :2.1891427113939255E10
+pft :2.189142711393925E9
 load_iter: 0
 cont_iter: 0
+1, stick: 13,  slip: 0
 1, num slave nodes: 24,  numContactingNodes: 13
 totalnumContactingNodes: 13
-nr_iter: 0           nr_err: 1.0       maxFact:0.0
 Computing Preconditioner..
 ICCG iteration:     0	 error : 1.00E00	 res max: 3.00E00
-ICCG iteration:    50	 error : 3.04E-02	 res max: 9.10E-02
-ICCG iteration:    93	 error : 9.46E-07	 res max: 2.83E-06
+ICCG iteration:    50	 error : 3.70E-02	 res max: 1.11E-01
+ICCG iteration:    94	 error : 7.14E-07	 res max: 2.14E-06
+nr_iter: 0           nr_err: 1.0       disp_err: 1.0
+1, stick: 13,  slip: 0
 1, num slave nodes: 24,  numContactingNodes: 13
 totalnumContactingNodes: 13
-nr_iter: 1           nr_err: 0.0022875575523215643       maxFact:0.0
 Computing Preconditioner..
-ICCG iteration:     0	 error : 1.00E00	 res max: 4.77E-03
-ICCG iteration:    50	 error : 1.23E-03	 res max: 5.85E-06
-ICCG iteration:    86	 error : 9.41E-07	 res max: 4.49E-09
-1, num slave nodes: 24,  numContactingNodes: 13
-totalnumContactingNodes: 13
-                                                      nr_iter_sub: 0           nr_err_sub: 5.791617926880462E-6
-1, num slave nodes: 24,  numContactingNodes: 13
-totalnumContactingNodes: 13
-nr_iter: 2           nr_err: 5.791617926880462E-6       maxFact:0.0
-Computing Preconditioner..
-ICCG iteration:     0	 error : 1.00E00	 res max: 2.23E-05
-ICCG iteration:    50	 error : 2.96E-03	 res max: 6.58E-08
-ICCG iteration:    87	 error : 8.92E-07	 res max: 1.98E-11
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.12E-02
+ICCG iteration:    50	 error : 1.63E-03	 res max: 1.82E-05
+ICCG iteration:    88	 error : 8.72E-07	 res max: 9.74E-09
+nr_iter: 1           nr_err: 0.005357039147402681       disp_err: 4.781868815155409E-5
 1, stick: 13,  slip: 0
 cont_iter: 1
+1, stick: 13,  slip: 0
 1, num slave nodes: 24,  numContactingNodes: 13
 totalnumContactingNodes: 13
-nr_iter: 0           nr_err: 0.18314129806281682       maxFact:0.0
 Computing Preconditioner..
-ICCG iteration:     0	 error : 1.00E00	 res max: 7.24E-01
-ICCG iteration:    50	 error : 4.54E-03	 res max: 3.29E-03
-ICCG iteration:    88	 error : 9.38E-07	 res max: 6.80E-07
+ICCG iteration:     0	 error : 1.00E00	 res max: 2.02E00
+ICCG iteration:    50	 error : 1.15E-03	 res max: 2.32E-03
+ICCG iteration:    85	 error : 9.50E-07	 res max: 1.92E-06
+nr_iter: 0           nr_err: 0.8416245865268094       disp_err: 0.009443484937009337
+1, stick: 13,  slip: 0
 1, num slave nodes: 24,  numContactingNodes: 13
 totalnumContactingNodes: 13
-                                                      nr_iter_sub: 0           nr_err_sub: 0.0012347412913582473
-1, num slave nodes: 24,  numContactingNodes: 13
-totalnumContactingNodes: 13
-nr_iter: 1           nr_err: 0.0012347412913582473       maxFact:0.0
 Computing Preconditioner..
-ICCG iteration:     0	 error : 1.00E00	 res max: 2.61E-03
-ICCG iteration:    50	 error : 1.06E-03	 res max: 2.77E-06
-ICCG iteration:    86	 error : 9.65E-07	 res max: 2.52E-09
-1, num slave nodes: 24,  numContactingNodes: 13
-totalnumContactingNodes: 13
-                                                      nr_iter_sub: 0           nr_err_sub: 2.995616855945412E-6
-1, num slave nodes: 24,  numContactingNodes: 13
-totalnumContactingNodes: 13
-nr_iter: 2           nr_err: 2.995616855945412E-6       maxFact:0.0
-Computing Preconditioner..
-ICCG iteration:     0	 error : 1.00E00	 res max: 1.13E-05
-ICCG iteration:    50	 error : 3.00E-03	 res max: 3.38E-08
-ICCG iteration:    87	 error : 9.68E-07	 res max: 1.09E-11
+ICCG iteration:     0	 error : 1.00E00	 res max: 8.24E-04
+ICCG iteration:    50	 error : 1.77E-03	 res max: 1.46E-06
+ICCG iteration:    89	 error : 8.61E-07	 res max: 7.09E-10
+nr_iter: 1           nr_err: 3.942678735101626E-4       disp_err: 3.875312703539997E-6
 1, stick: 13,  slip: 0
 cont_iter: 2
+1, stick: 13,  slip: 0
 1, num slave nodes: 24,  numContactingNodes: 13
 totalnumContactingNodes: 13
-nr_iter: 0           nr_err: 0.06916869280017315       maxFact:0.0
 Computing Preconditioner..
-ICCG iteration:     0	 error : 1.00E00	 res max: 2.74E-01
-ICCG iteration:    50	 error : 4.12E-03	 res max: 1.13E-03
-ICCG iteration:    88	 error : 8.07E-07	 res max: 2.21E-07
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.80E-01
+ICCG iteration:    50	 error : 1.13E-02	 res max: 2.03E-03
+ICCG iteration:    91	 error : 9.77E-07	 res max: 1.76E-07
+nr_iter: 0           nr_err: 0.045255606295614925       disp_err: 0.0037323897285407525
+1, stick: 13,  slip: 0
 1, num slave nodes: 24,  numContactingNodes: 13
 totalnumContactingNodes: 13
-                                                      nr_iter_sub: 0           nr_err_sub: 5.007009554189396E-4
-1, num slave nodes: 24,  numContactingNodes: 13
-totalnumContactingNodes: 13
-nr_iter: 1           nr_err: 5.007009554189396E-4       maxFact:0.0
 Computing Preconditioner..
-ICCG iteration:     0	 error : 1.00E00	 res max: 1.10E-03
-ICCG iteration:    50	 error : 1.41E-03	 res max: 1.56E-06
-ICCG iteration:    86	 error : 9.32E-07	 res max: 1.03E-09
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.01E-03
+ICCG iteration:    50	 error : 4.86E-04	 res max: 4.92E-07
+ICCG iteration:    87	 error : 8.82E-07	 res max: 8.93E-10
+nr_iter: 1           nr_err: 4.7179690381761745E-4       disp_err: 3.4451812314041904E-6
+1, stick: 13,  slip: 0
+cont_iter: 3
+1, stick: 13,  slip: 0
+1, num slave nodes: 24,  numContactingNodes: 13
+totalnumContactingNodes: 13
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.38E-01
+ICCG iteration:    50	 error : 1.11E-02	 res max: 1.52E-03
+ICCG iteration:    91	 error : 9.66E-07	 res max: 1.33E-07
+nr_iter: 0           nr_err: 0.03286850319370611       disp_err: 0.0028623194241973707
+1, stick: 13,  slip: 0
+1, num slave nodes: 24,  numContactingNodes: 13
+totalnumContactingNodes: 13
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 8.47E-04
+ICCG iteration:    50	 error : 5.77E-04	 res max: 4.89E-07
+ICCG iteration:    86	 error : 9.59E-07	 res max: 8.12E-10
+nr_iter: 1           nr_err: 3.9261514627343235E-4       disp_err: 2.7654196840180054E-6
+1, stick: 13,  slip: 0
+cont_iter: 4
+1, stick: 13,  slip: 0
+1, num slave nodes: 24,  numContactingNodes: 13
+totalnumContactingNodes: 13
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 1.10E-01
+ICCG iteration:    50	 error : 1.08E-02	 res max: 1.19E-03
+ICCG iteration:    91	 error : 9.64E-07	 res max: 1.06E-07
+nr_iter: 0           nr_err: 0.026141656771421145       disp_err: 0.0022201439257804223
+1, stick: 13,  slip: 0
+1, num slave nodes: 24,  numContactingNodes: 13
+totalnumContactingNodes: 13
+Computing Preconditioner..
+ICCG iteration:     0	 error : 1.00E00	 res max: 6.76E-04
+ICCG iteration:    50	 error : 5.80E-04	 res max: 3.92E-07
+ICCG iteration:    86	 error : 9.62E-07	 res max: 6.51E-10
+nr_iter: 1           nr_err: 3.133598043190566E-4       disp_err: 2.1696948802790425E-6
 1, stick: 13,  slip: 0
 NR error
  0	1.0000e+00
- 1	2.2876e-03
- 2	5.7916e-06
- 3	1.8314e-01
- 4	1.2347e-03
- 5	2.9956e-06
- 6	6.9169e-02
- 7	5.0070e-04
+ 1	5.3570e-03
+ 2	8.4162e-01
+ 3	3.9427e-04
+ 4	4.5256e-02
+ 5	4.7180e-04
+ 6	3.2869e-02
+ 7	3.9262e-04
+ 8	2.6142e-02
+ 9	3.1336e-04
 aug_disp changes vs aug_iter
 1.0000e+00
-5.9176e-03
-1.9131e-03
+9.4416e-03
+3.7302e-03
+2.8605e-03
+2.2188e-03
 
 Gap[micon] vs aug_iter
-8.1211e-06
-8.0867e-06
-8.0777e-06
+7.2428e-06
+3.8520e-06
+3.7370e-06
+3.7220e-06
+3.7164e-06
 
 slide[micon] vs aug_iter
-1.0953e-05
-5.1379e-06
-2.8275e-06
+2.2998e-05
+1.9047e-05
+1.5980e-05
+1.3553e-05
+1.1615e-05
 
-2.3303e-04
+2.3122e-04
 
  Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\punch\master_normal.txt
  Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\punch\slave_normal.txt
  Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\punch\contact_force.txt
-Deformation Max: 2.3303008492460956E-4 at node 2787
+Deformation Max: 2.3121723044078015E-4 at node 2787
  Magnetic nodal force was written to D:\JavaWorks\FEM problems\structural\2D-contact\punch\force_out0.txt
  Magnetic nodal displacement was written to D:\JavaWorks\FEM problems\structural\2D-contact\punch\disp0.txt
  Structural stress was written to D:\JavaWorks\FEM problems\structural\2D-contact\punch\stress0.txt
  Data file was written to D:\JavaWorks\FEM problems\structural\2D-contact\punch\data_out.txt
 0.00000e+00
 
-Computation time: 5.639 seconds
+Computation time: 7.077 seconds
+Total cpu time (s):        7.3

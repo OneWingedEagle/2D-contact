@@ -21,7 +21,7 @@ b4:
 x,-1,.001,0,0
 y,-1,.001,1,0
 force folder:
-D:\JavaWorks\FEM problems\structural\2D-contact\ipm_v
+centrifugal
 force files:0,0,1
 
 intm:0
