@@ -1,7 +1,7 @@
 //data file format code  (0. Magnetic, 1. Mechanical, 2. coupled) 
 1
 //dimension 
-2	
+2
 //coordinate system  (0. Cartesian 1. Cylindrical, 2. Spherical) 
 0
 //motor
@@ -26,7 +26,7 @@ force files:0,0,1
 
 intm:0
 
-dt:5.55555e-6
+dt:9e-5
 
 contact
 1
@@ -76,8 +76,8 @@ transfer2DTo3D:f
 mechAnalysis:true
 modalAnalysis:f
 loadDisp:f	
-saveForce:t
+saveForce:f
 saveDisp:t
-saveStress:t	
-rayAlpha=1e-5
-rayBeta=1e-5
+saveStress:f
+rayAlpha=0e-5
+rayBeta=0e-5

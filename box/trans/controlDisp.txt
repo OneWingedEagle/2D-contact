@@ -1,0 +1,33 @@
+data file type: 2
+
+mesh file
+D:\JavaWorks\FEM problems\structural\2D-contact\box\trans\results\bun.txt
+
+data folder:
+D:\JavaWorks\FEM problems\structural\2D-contact\box\trans\results
+
+file name common part:
+disp
+
+temporal: 0,10,1
+
+extension
+txt
+
+animation mode: 1
+
+batch mode: t
+
+timedelay: 100
+
+regions: 
+1,2,3
+
+rotstep:0.05
+
+dt:5.55555e-6
+
+node:-1
+comp:1
+.092 0 0
+
