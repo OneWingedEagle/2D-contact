@@ -113,5 +113,4 @@ Deformation Max: 13.210984267250328 at node 74
 0.00000e+00
 0.00000e+00
 
-Computation time: 0.8 seconds
-Total cpu time (s):        1.0
+Computation time: 0.759 seconds

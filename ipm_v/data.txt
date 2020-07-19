@@ -27,9 +27,11 @@ force files:0,0,1
 intm:0
 
 dt:5.55555e-6
-// contact condition ** data type
-contact 1
-4
+// contact condition 
+contact 
+/ * NUM. CONTACT * NR_ITR. * AUG_ITER  * NLOADS  * MNR /
+4	10	1	1
+1e-2	1e-4
 1.0
 1.0
 1
